@@ -33,6 +33,7 @@ nav.nav-lay1 {
 nav ul {
     list-style-type: none;
     overflow: hidden;
+    
   
 }
 
@@ -175,3 +176,66 @@ footer {
     background-color: #71a89b;
 }
 
+
+
+/*----------------------------------------------------------lay3----------------------------------------------------------*/
+
+.mainSquare {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width:1000px;
+    background-color:#ffffff;
+    height: auto;
+    flex-wrap: wrap;
+}
+.backImg {
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    background-size: cover;
+    transform: translate(50%, -50%);
+}
+.image {
+    min-width: 333px;
+    max-width:500px;
+    height: 300px;
+    max-width:50%;
+    background-color: #11323b;
+    position: relative;
+}
+.star {
+    background-image:url(../images/star.png);
+    position: absolute;
+    background-size:cover;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+}
+
+.pointer
+{
+    cursor:crosshair;
+}
+
+@media (max-width:950px){
+   .wrapper {
+      
+        width: 600px;
+        margin:0px auto;
+        position: relative;
+        display: none; 
+    }
+  
+    main{
+        width:  600px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+
+
+}
